@@ -2,9 +2,11 @@
 
 Use AI to translate selected words or paragraphs from web pages.
 
+<div style="display: flex;">
 <img src="https://github.com/martygo/s3/blob/main/screenshot-step-1.jpg" width="300" height="300">
 <img src="https://github.com/martygo/s3/blob/main/screenshot-step-2.jpg" width="300" height="300">
 <img src="https://github.com/martygo/s3/blob/main/screenshot-step-3.jpg" width="300" height="300">
+</div>
 
 ### Description
 
