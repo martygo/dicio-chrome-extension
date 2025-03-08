@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionário de Português</title>
+    <meta name="description" content="Dicionário de Português">
+    <meta name"author" content="Martins Gouveia">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Dicionário de Português</h1>
+        <p>Selecione uma palavra ou parágrafo para entender seu significado.</p>
+        <input type="text" id="word-input" placeholder="Ou digite uma palavra aqui...">
+        <button id="search-button">Procurar</button>
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>Procurando...</p>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
